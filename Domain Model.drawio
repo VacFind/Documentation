@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2021-02-04T02:58:55.377Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/13.7.9 Chrome/85.0.4183.121 Electron/10.1.3 Safari/537.36" etag="0acl056SkUzANsfXHvLk" compressed="false" version="13.7.9" type="device">
+<mxfile host="Electron" modified="2021-02-04T03:01:16.761Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/13.7.9 Chrome/85.0.4183.121 Electron/10.1.3 Safari/537.36" etag="Mn-PjQyiqb52UsXyWVYC" compressed="false" version="13.7.9" type="device">
   <diagram id="gkTDoFV87DzuoV1fEBKY" name="Page-1">
-    <mxGraphModel dx="1185" dy="657" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="638" dy="561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -54,10 +54,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="2SADG2Mm19aQtGV7RvQH-9" value="state health authority" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="405" y="96" width="120" height="60" as="geometry" />
+          <mxGeometry x="405" y="90" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2SADG2Mm19aQtGV7RvQH-10" value="county health authority" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="405" y="176" width="120" height="60" as="geometry" />
+          <mxGeometry x="405" y="160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2SADG2Mm19aQtGV7RvQH-11" value="Federal Government" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="405" y="16" width="120" height="60" as="geometry" />
@@ -117,7 +117,7 @@
         <mxCell id="8nI3qpwCQh2RL1x1nEvz-53" value="possibly include automated data sources like other API;s" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry y="869" width="320" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="8nI3qpwCQh2RL1x1nEvz-9" value="vaccination site" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=22;fillColor=#008a00;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;fontSize=14;strokeColor=#005700;fontColor=#ffffff;" parent="1" vertex="1">
+        <mxCell id="8nI3qpwCQh2RL1x1nEvz-9" value="vaccination_site" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=22;fillColor=#008a00;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;fontSize=14;strokeColor=#005700;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="350" y="566" width="170" height="152" as="geometry" />
         </mxCell>
         <mxCell id="8nI3qpwCQh2RL1x1nEvz-10" value="id" style="text;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fillColor=#d5e8d4;strokeColor=#82b366;" parent="8nI3qpwCQh2RL1x1nEvz-9" vertex="1">
@@ -208,7 +208,7 @@
           <mxGeometry y="152" width="135" height="26" as="geometry" />
         </mxCell>
         <mxCell id="wKSxOZGTtH2zUBn96tBt-27" value="regional distribution hub" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="405" y="250" width="120" height="60" as="geometry" />
+          <mxGeometry x="405" y="230" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wKSxOZGTtH2zUBn96tBt-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=0;endSize=15;" parent="1" source="wKSxOZGTtH2zUBn96tBt-27" target="8nI3qpwCQh2RL1x1nEvz-28" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -332,6 +332,15 @@
         </mxCell>
         <mxCell id="8nI3qpwCQh2RL1x1nEvz-35" value="long" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="8nI3qpwCQh2RL1x1nEvz-31" vertex="1">
           <mxGeometry y="100" width="170" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="QpUT9odAJKQ123Ttcs5R-11" value="Healthcare provider" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="405" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QpUT9odAJKQ123Ttcs5R-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=block;endFill=0;endSize=15;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QpUT9odAJKQ123Ttcs5R-11" target="8nI3qpwCQh2RL1x1nEvz-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="269.9999999999999" as="sourcePoint" />
+            <mxPoint x="350" y="320" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
