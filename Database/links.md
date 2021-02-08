@@ -11,6 +11,10 @@ is the category/heading that the link belongs in, generally this is by state (wh
 USA: National (United States)
 ETC: Miscellaneous
 ```
+
+If this field is blank, the "Miscellaneous" category is used
+
+
 ## `description`
 is an internal description of the resource at that link that is not displayed
 
