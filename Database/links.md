@@ -21,3 +21,6 @@ a user-facing title to give the link in case it is a long link that may not be g
 
 ## `public`
 designates whether the link should be public (i.e. available on the website) or not
+
+## `source_url`
+internal text field for documenting where a link was found if it was discovered through another link (like a reddit post or news article). not currently used but may be handy in future
