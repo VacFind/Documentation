@@ -16,6 +16,8 @@ indicates what general type of resource the link is for deeper categorization in
 
 This is implemented using a multi-select list that has options like `vaccine`, `testing`, and `eligibility` as well as options like `tool`, `information`, `statistics`. This makes it easy to specify what type of link something is. For example, a state's vaccine information page could just be labelled `information`, and a vaccine locating tool could be labelled as `vaccine`, and `tool`. This makes it easy to display links in particular categories
 
+## `link_title`
+a user-facing title to give the link in case it is a long link that may not be good to display on screen directly
 
 ## `public`
 designates whether the link should be public (i.e. available on the website) or not
