@@ -1,4 +1,9 @@
-the links table powers the portion of the site that links to other state and local COVID resources
+---
+---
+
+# Links Table
+
+The links table powers the portion of the site that links to other state and local COVID resources
 
 
 ## `url`
