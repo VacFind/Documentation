@@ -5,11 +5,11 @@ This is a low-effort github pages site for various [VacFind](https://vacfind.org
 
 # Table of contents
 
-[Tutorials](./Tutorials.md)
+[Tutorials](./Tutorials)
 
-[Database API-related documentation](./Database/api.md)
+[Database API-related documentation](./Database/api)
 
-[Database links table](./Database/links.md.md)
+[Database links table](./Database/links)
 
 
 ## Files
