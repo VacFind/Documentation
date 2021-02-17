@@ -6,12 +6,14 @@
 
 ## Rate Limiting
 
-airtable limits the API to 5 requests per second. once we start getting close to that, we should start using http://varnish-cache.org/ to cache the requests
+airtable limits the API to 5 requests per second and suggests using a caching server to get anything more than this.
 
-## Making it public
+using a GCP f1-micro instance that should theoretically not cost money (or cost very little) we have set up such a caching server at https://api.vacfind.org. 
 
-After adding ratelimiting, it might be nice to make our API public for other people to use. This would require:
+### Caching server architecture/setup
+the caching server uses caddyserver.com to provide HTTPS, varnish to provide the caching, and stunnel as an HTTPS client to make requests to Airtable's API because varnish doesnt support HTTPS or seemingly remote backends very easily.
 
-- [ ] Setting up a way for the API to automatically use our Base ID and API Key so people dont need to hardcode it or create their own and have our bases shared with them
-- [ ] setting up a subdomain for it (not hard)
-- [ ] possibly finding a way to split the cost of the proxy server between API users (maybe we distribute our own API keys?)
+
+To be totaly honest, I dont think there is anything about our caching server that limits it to being used for just our airtable bases, so theoretically anyone can use their own base ID and APIkeys to read (not sure how the caching will interact with attempts to write. This may require more configuration) from their own airtable bases.
+
+While we are okay with other COVID-related projcets using our cached API endpoint this way, we may eventually need to restrict the API in some way, or ask that projects that make use of it offer to contribute towards the costs if usage gets too high.
