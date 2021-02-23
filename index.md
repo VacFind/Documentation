@@ -5,14 +5,12 @@ This is a low-effort github pages site for various [VacFind](https://vacfind.org
 
 # Table of contents
 
-- [Tutorials](./Tutorials)
-- projects
+- [Tutorials and Advice for small projects](./Tutorials)
+- **Projects**
   - [Link Aggregation](./projects/LinkAggregation)
+    - [link database AirTable schema](./Database/links)
   - [CovidJS library](https://vacfind.github.io/CovidJS/)
-- database
   - [VacFind AirTable Caching API](./Database/api)
-  - [Database links table](./Database/links)
-
 
 ## Files
 
