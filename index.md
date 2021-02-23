@@ -10,7 +10,7 @@ This is a low-effort github pages site for various [VacFind](https://vacfind.org
   - [Link Aggregation](./projects/LinkAggregation)
   - [CovidJS library](https://vacfind.github.io/CovidJS/)
 - database
-  - [Database API-related documentation](./Database/api)
+  - [VacFind AirTable Caching API](./Database/api)
   - [Database links table](./Database/links)
 
 
