@@ -6,6 +6,9 @@ This is a low-effort github pages site for various [VacFind](https://vacfind.org
 # Table of contents
 
 - [Tutorials](./Tutorials)
+- projects
+  - [Link Aggregation](./projects/LinkAggregation)
+  - [CovidJS library](https://vacfind.github.io/CovidJS/)
 - database
   - [Database API-related documentation](./Database/api)
   - [Database links table](./Database/links)
