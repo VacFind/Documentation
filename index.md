@@ -10,6 +10,7 @@ This is a low-effort github pages site for various [VacFind](https://vacfind.org
   - [Link Aggregation](./projects/LinkAggregation)
     - [link database AirTable schema](./Database/links)
   - [CovidJS library](https://vacfind.github.io/CovidJS/)
+  - [GeoCompare script to combine geographical datasets (like vaccination site locations)](https://github.com/VacFind/GeoCompare)
   - [VacFind AirTable Caching API](./Database/api)
 
 ## Files
