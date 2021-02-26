@@ -57,7 +57,9 @@ By some measures, Varnish is one of the fastest caching servers there is. It is 
 ### stunnel
 Because [varnish doesnt support HTTPS](https://varnish-cache.org/docs/trunk/phk/ssl_again.html), we use stunnel as a HTTPS client to create secure requests out to Airtable's API when varnish needs to fetch records direct from airtable. 
 
+## Monitoring
 
+The API has some basic monitoring set up to alert us if there is downtime.
 
 
 ## Hosting Costs
